@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  font-family: Courier, "Lucida Console", monospace;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #424242;
+  background: #fff;
+
+}
+.principal{
+  padding-top: 2%;
+  padding-bottom: 0;
+  margin:0 15% 0 15%;
+  background: #e7e8eb;
+  border-radius: 5px;
+}
+.cabecera{
+  display: block;
+  background: #a4adaa;
+  text-align: center;
+  padding-left: 30%;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+.nav{
+  margin:1% 1% 1% 25%;
+  text-align: center;
+}
+.nav__lista > li{
+  display: inline-block;
+  list-style: none;
+  background: #2b2b2b;
+  border-radius: 5px;
+  box-shadow: 4px 2px 7px 7px #00000080;
+  font-size: 16px;
+  margin: 5px 10px;
+  padding: 5px;
+  border: 1px solid #e7e8eb;
+}
+
+.profile__img{
+  width: 150px;
+  border-radius: 114px;
+  position: relative;
+  margin: 0;
+  margin-top: 5px;
+  padding: 10px;
+
+}
+.profile{
+  display: inline;
+  background: #2b2b2b;
+  font-size: 14px;
+  color: #e7e8eb;
+  position: absolute;
+  top: 0;
+  left: 17%;
+  padding: 5px;
+  padding-bottom: 25%;
+  width: 15%;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 4px 2px 7px 7px #00000080;
+  text-align: center;
+}
+.about, .education, .portfolio{
+  display: inline-block;
+  text-align: left;
+  margin: 5px 0 20px 0;
+  background: #a4adaa;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+
+}
+.profile__contact, .profile__lenguages, .profile__other{
+  margin: 30px 20px 5px 20px;
+  padding: 1%;
+  border-bottom: 1px #e7e8eb solid;
+}
+.profile__direcciones, .profile__lenguages__list, .profile__other__list{
+  list-style: none;
+  padding: 5%;
+}
+.about__title, .education__title, .portfolio__title{
+  margin: 5px 10px 5px 30%;
+  text-align: center;
+  border-bottom: 1px #2b2b2b solid;
+}
+p, .education__titulos, .icons{
+  list-style: none;
+  margin: 20px;
+  padding-left: 30%;
+}
+.small{
+  font-size: 10px;
+}
+.nav__lista__link{
+  color: #e7e8eb;
+  text-decoration: none;
+}
+.portfolio__img{
+  width: 100px;
+  display: inline-block;
+  margin: 1px;
+  text-align: center;
+
+}
+.portfolio__icons{
+  list-style: none;
+}
+.portfolio__icons li {
+  display: inline-block;
+  border: 1px solid #2b2b2b;
+  border-radius: 5px;
+  box-shadow: 4px 2px 7px 7px #00000080;
+  margin: 5px;
+  text-align: left;
+  width: 130px;
+}
+.portfolio__icons__caja{
+  text-align: center;
+
+}
+span {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+.icons{
+  text-align: center;
+}
